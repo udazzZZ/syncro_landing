@@ -1,0 +1,11 @@
+.hero__title {
+  margin: 0;
+  background-image: url(../../../images/noisy-gradients.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  font-size: 128px;
+  font-weight: 700;
+  background-position-y: center;
+}

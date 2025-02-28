@@ -1,0 +1,7 @@
+.hero__description {
+  padding: 73px 0;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}

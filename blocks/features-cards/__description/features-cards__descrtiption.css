@@ -1,0 +1,6 @@
+.features-cards__description {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}

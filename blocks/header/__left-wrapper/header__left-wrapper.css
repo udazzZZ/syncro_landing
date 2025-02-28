@@ -1,0 +1,5 @@
+.header__left-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+}

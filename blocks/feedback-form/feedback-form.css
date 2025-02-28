@@ -1,0 +1,8 @@
+.feedback-form {
+  padding: 0 48px;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+  height: 250px;
+  width: 90%;
+}

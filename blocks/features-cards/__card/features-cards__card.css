@@ -1,0 +1,7 @@
+.features-cards__card {
+  background-color: #F1F1F1;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 4px -4px rgba(12, 12, 13, 0.05), 0 16px 32px -4px rgba(12, 12, 13, 0.1);
+  border-radius: 16px;
+}

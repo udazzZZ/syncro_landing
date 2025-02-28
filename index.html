@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Syncro</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__left-wrapper">
+          <img src="./images/LOGO.svg" alt="Логотип" class="logo" />
+          <nav class="menu">
+            <ul class="menu__wrapper">
+              <li class="menu__item">
+                <a href="#main" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#features" class="menu__link">Возможности</a>
+              </li>
+              <li class="menu__item">
+                <a href="#about" class="menu__link">О нас</a>
+              </li>
+              <li class="menu__item">
+                <a href="#feedback" class="menu__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <a href="#feedback" class="button">Связаться с нами</a>
+      </div>
+    </header>
+
+    <section class="hero" id="main">
+      <div class="container hero__container">
+        <div class="hero__description">
+          <div class="hero__text">
+            <h1 class="hero__title">SYNCRO</h1>
+            <h2 class="hero__subtitle">
+              Забудьте про пропущенные встречи и несогласованные планы!<br /><span
+                class="hero__subtitle hero__subtitle_weight_bold"
+                >Syncro</span
+              >
+              поможет вашей команде организовывать расписание легко и удобно.
+            </h2>
+          </div>
+          <a href="#about" class="button button_fullfilled">Узнать больше</a>
+        </div>
+        <img src="./images/macbook.png" alt="Календарь" class="hero__image" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about__container">
+        <h2 class="section-title">ПОЧЕМУ SYNCRO?</h2>
+        <h3 class="section-subtitle">
+          Мы предлагаем современное решение для управления командным
+          расписанием.
+        </h3>
+        <div class="about-cards">
+          <div class="about-cards__card">
+            <img
+              src="./images/icon-calendar.svg"
+              alt="Иконка календаря"
+              class="about-cards__card-icon"
+            />
+            <div class="about-cards__card-description">
+              <h4 class="about-cards__card-title">Никакого хаоса</h4>
+              <p class="about-cards__card-text">
+                Все события, встречи и задачи собраны в одном месте.
+              </p>
+            </div>
+          </div>
+          <div class="about-cards__card">
+            <img
+              src="./images/icon-notification.svg"
+              alt="Иконка уведомлений"
+              class="about-cards__card-icon"
+            />
+            <div class="about-cards__card-description">
+              <h4 class="about-cards__card-title">
+                Больше никаких пропущенных дедлайнов
+              </h4>
+              <p class="about-cards__card-text">
+                Умные напоминания помогут не пропустить важные события.
+              </p>
+            </div>
+          </div>
+          <div class="about-cards__card">
+            <img
+              src="./images/icon-integrationc.svg"
+              alt="Иконка интеграций"
+              class="about-cards__card-icon"
+            />
+            <div class="about-cards__card-description">
+              <h4 class="about-cards__card-title">
+                Интеграция с популярными сервисами
+              </h4>
+              <p class="about-cards__card-text">
+                Интеграция с Google Calendar, Slack и другими инструментами.
+              </p>
+            </div>
+          </div>
+          <div class="about-cards__card">
+            <img
+              src="./images/icon-devices.svg"
+              alt="Иконка девайсов"
+              class="about-cards__card-icon"
+            />
+            <div class="about-cards__card-description">
+              <h4 class="about-cards__card-title">
+                Работа с любого устройства
+              </h4>
+              <p class="about-cards__card-text">
+                Доступно в вебе, мобильном приложжении и на десктопе.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container features__container">
+        <h2 class="section-title">ВОЗМОЖНОСТИ</h2>
+        <div class="features-cards">
+          <div class="features-cards__card">
+            <img
+              src="./images/flex-image.png"
+              alt="Изображение календаря"
+              class="features-cards__image"
+            />
+            <div class="features-cards__description">
+              <h4 class="features-cards__title">Гибкость</h4>
+              <p class="features-cards__text">
+                Работает в браузере, на телефоне и ПК
+              </p>
+            </div>
+          </div>
+          <div class="features-cards__card">
+            <img
+              src="./images/flex-image.png"
+              alt="Изображение календаря"
+              class="features-cards__image"
+            />
+            <div class="features-cards__description">
+              <h4 class="features-cards__title">Роли и права доступа</h4>
+              <p class="features-cards__text">
+                Задавайте уровень доступа для участников, чтобы управлять тем,
+                кто может редактировать или просматривать события
+              </p>
+            </div>
+          </div>
+          <div class="features-cards__card">
+            <img
+              src="./images/services-image.png"
+              alt="Изображение календаря"
+              class="features-cards__image"
+            />
+            <div class="features-cards__description">
+              <h4 class="features-cards__title">Интеграции</h4>
+              <p class="features-cards__text">
+                Подключение к Google Календарю, Slack и другим сервисам
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+      <div class="container feedback__container">
+        <h2 class="section-title">СВЯЗАТЬСЯ С НАМИ</h2>
+        <form action="" class="feedback-form">
+          <div class="feedback-form__column">
+            <div class="feedback-form__input-group">
+              <div class="feedback-form__input">
+                <label for="name" class="feedback-form__input-label"
+                  >Ваше имя</label
+                >
+                <input
+                  type="text"
+                  class="feedback-form__input-field"
+                  id="name"
+                  placeholder="Введите ваше имя"
+                />
+              </div>
+              <div class="feedback-form__input">
+                <label for="email" class="feedback-form__input-label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="feedback-form__input-field"
+                  id="email"
+                  placeholder="Введите ваш email"
+                />
+              </div>
+            </div>
+            <button class="button">Отправить</button>
+          </div>
+          <div class="feedback-form__input">
+            <label for="message" class="feedback-form__input-label"
+              >Ваше сообщение</label
+            >
+            <textarea
+              id="message"
+              class="feedback-form__textarea"
+              placeholder="Введите ваше сообщение"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__info">
+          <div class="footer__logo-copyright">
+            <img src="./images/logo_footer.svg" alt="Логотип" class="logo" />
+            <p class="footer__text">© 2025 Syncro. Все права защищены.</p>
+          </div>
+          <div class="footer__menu-services">
+            <nav class="menu">
+              <ul class="menu__wrapper menu__wrapper_place_footer">
+                <li class="menu__item">
+                  <a href="#main" class="menu__link menu__link_place_footer"
+                    >Главная</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#features" class="menu__link menu__link_place_footer"
+                    >Возможности</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#about" class="menu__link menu__link_place_footer"
+                    >О нас</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#feedback" class="menu__link menu__link_place_footer"
+                    >Контакты</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <p class="footer__text">
+              <span class="footer__text footer__text_color_blue"
+                >Остались вопросы? Напишите нам:</span
+              >
+              support@syncro.com
+            </p>
+            <div class="services">
+              <a href="#" class="services__link"
+                ><img
+                  class="services__icon"
+                  src="./images/twitter-icon.svg"
+                  alt="Иконка твиттера"
+              /></a>
+              <a href="#" class="services__link"
+                ><img
+                  class="services__icon"
+                  src="./images/linked_in-icon.svg"
+                  alt="Иконка linked-in"
+              /></a>
+              <a href="#" class="services__link"
+                ><img
+                  class="services__icon"
+                  src="./images/facebook-icon.svg"
+                  alt="Иконка фейсбука"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__subinfo">
+          <a href="#" class="footer__link">Политика конфиденциальности</a>
+          <a href="#" class="footer__link">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
