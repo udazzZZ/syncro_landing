@@ -1,0 +1,19 @@
+.button {
+  text-decoration: none;
+  background-color: #22223B;
+  height: 52px;
+  border-radius: 8px;
+  padding: 0 32px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

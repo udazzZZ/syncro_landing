@@ -1,0 +1,9 @@
+.features-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+
+  @media (width <= 900px) {
+    grid-template-columns: 1fr;
+  }
+}

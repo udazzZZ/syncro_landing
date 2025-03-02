@@ -1,0 +1,8 @@
+.menu__wrapper {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}

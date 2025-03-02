@@ -1,0 +1,12 @@
+.features-cards__description {
+  height: 100%;
+
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+  @media (width <= 900px) {
+    /* height: auto; */
+  }
+}

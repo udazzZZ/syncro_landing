@@ -1,0 +1,22 @@
+.hero__image {
+  width: 1362px;
+  height: auto;
+
+  position: absolute;
+  top: 60px;
+  right: -700px;
+
+  z-index: -1;
+
+  @media (width <= 1380px) {
+    right: -900px;
+  }
+
+  @media (width < 1146px) {
+    right: -1000px;
+  }
+
+  @media (width < 1020px) {
+    display: none;
+  }
+}

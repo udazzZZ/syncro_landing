@@ -1,0 +1,19 @@
+.feedback-form__textarea {
+  height: 100%;
+  font-family: inherit;
+  padding: 10px;
+  background-color: #EAEAEA;
+  border-radius: 8px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #22223B;
+  resize: none;
+}
+
+.feedback-form__textarea::placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9A8C98;
+}

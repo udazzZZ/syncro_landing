@@ -1,0 +1,11 @@
+.about-cards__card-text {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4a4e69;
+
+  @media (width <= 960px) {
+    text-align: start;
+  }
+}

@@ -1,0 +1,8 @@
+.about-cards__card-icon {
+  width: 31px;
+  height: auto;
+
+  @media (width <= 960px) {
+    width: 41px;
+  }
+}
